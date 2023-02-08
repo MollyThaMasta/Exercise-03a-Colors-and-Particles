@@ -21,4 +21,4 @@ func _input(event):
 
 func hit():
 	$Highlight.modulate.a = 1
-	
+	$Confetti.emitting = true
